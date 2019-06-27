@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DBSM2_Example' do
+  pod 'DBSM2', :path => '../'
+
+  target 'DBSM2_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
