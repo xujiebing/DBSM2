@@ -1,0 +1,26 @@
+{
+  "name": "DBSM2",
+  "version": "0.1.0",
+  "summary": "A short description of DBSM2.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xujiebing/DBSM2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xujiebing": "xujiebing@bwton.com"
+  },
+  "source": {
+    "git": "https://github.com/xujiebing/DBSM2.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DBSM2/Classes/**/*",
+  "libraries": [
+    "c++",
+    "z"
+  ]
+}

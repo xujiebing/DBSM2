@@ -23,7 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		84731D13C048926FE8786438 /* Pods_DBSM2_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7032A0ABF495C9B583AF616C /* Pods_DBSM2_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9F04A4E936282F61AFE90449 /* Pods_DBSM2_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DFB7123C31EF8FDBD2A4FD /* Pods_DBSM2_Example.framework */; };
+		9B75538522CB618C00C1D21C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B75538422CB618C00C1D21C /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		3F06D51BC637A6B380BD4FE2 /* Pods-DBSM2_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSM2_Example.release.xcconfig"; path = "Target Support Files/Pods-DBSM2_Example/Pods-DBSM2_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B1EFA907BF248C49B6D37F7 /* Pods-DBSM2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSM2_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DBSM2_Tests/Pods-DBSM2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5E326849B58C0810073B98C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5E326849B58C0810073B98C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DBSM2_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBSM2_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77DFB7123C31EF8FDBD2A4FD /* Pods_DBSM2_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBSM2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B8A8DEAB336ACCFF02B6FD5 /* DBSM2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DBSM2.podspec; path = ../DBSM2.podspec; sourceTree = "<group>"; };
-		E130424BFC6342AA21E86B22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B8A8DEAB336ACCFF02B6FD5 /* DBSM2.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DBSM2.podspec; path = ../DBSM2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B75534522C9F99D00C1D21C /* DBSM2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DBSM2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B75538022CB614300C1D21C /* Pods_DBSM2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DBSM2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B75538222CB617400C1D21C /* DBSM2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DBSM2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B75538422CB618C00C1D21C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E130424BFC6342AA21E86B22 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F16295A6D156E01D10F85F66 /* Pods-DBSM2_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSM2_Example.debug.xcconfig"; path = "Target Support Files/Pods-DBSM2_Example/Pods-DBSM2_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F46734787BD3272E446DEC0F /* Pods-DBSM2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBSM2_Tests.release.xcconfig"; path = "Target Support Files/Pods-DBSM2_Tests/Pods-DBSM2_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,10 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B75538522CB618C00C1D21C /* libc++.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				9F04A4E936282F61AFE90449 /* Pods_DBSM2_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +123,10 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B75538422CB618C00C1D21C /* libc++.tbd */,
+				9B75538222CB617400C1D21C /* DBSM2.framework */,
+				9B75538022CB614300C1D21C /* Pods_DBSM2_Tests.framework */,
+				9B75534522C9F99D00C1D21C /* DBSM2.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +201,6 @@
 				5B1EFA907BF248C49B6D37F7 /* Pods-DBSM2_Tests.debug.xcconfig */,
 				F46734787BD3272E446DEC0F /* Pods-DBSM2_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +266,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,10 +521,19 @@
 			baseConfigurationReference = F16295A6D156E01D10F85F66 /* Pods-DBSM2_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBSM2/DBSM2-Prefix.pch";
 				INFOPLIST_FILE = "DBSM2/DBSM2-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"DBSM2\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -529,10 +546,19 @@
 			baseConfigurationReference = 3F06D51BC637A6B380BD4FE2 /* Pods-DBSM2_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DBSM2/DBSM2-Prefix.pch";
 				INFOPLIST_FILE = "DBSM2/DBSM2-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"DBSM2\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

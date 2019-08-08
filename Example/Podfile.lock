@@ -1,0 +1,27 @@
+PODS:
+  - DBSM2 (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DBSM2 (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DBSM2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBSM2: 9de6a5589521eb0d2d8e90a3579aa6197777ba80
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: c8cf5fcf160c289dc41463b1ecf89be7fe08a534
+
+COCOAPODS: 1.7.0
